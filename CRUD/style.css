@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f3f4;
+    font-size: 3rem;
+}
+
+#Head{
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.7rem;
+    border: 1px solid lightgray;
+}
+
+button{
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 0.7rem;
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #E13949
+}
+
+h2,h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#Add-todo{
+    background-color: rgb(24, 204, 24);
+    color: white;
+    font-weight: 600;
+}
+#todo-Struc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    border: 1px solid lightgray;
+}
+li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.edit-btn ,.del-btn{
+    color: white;
+    font-weight: 600;
+}
+.edit-btn{
+    background-color: rgb(72, 72, 240);
+}
+.task-text{
+    font-size: 3rem;
+    color: #333;
+    padding: 5px;
+    display: inline-block;
+    width: 200px; /* Set a fixed width */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-align: center;
+}
